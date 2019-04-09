@@ -1,0 +1,17 @@
+# Cahier des charges
+
+## Contexte
+
+Le Corewar est un jeu de programmation populaire chez les étudiants de 42. https://fr.wikipedia.org/wiki/Core_War
+Pour répondre a l'amour des étudiants pour ce jeu, nous proposons de faire une version physique du jeu permettant la lecture des champions depuis une carte et des représentation visuelles des combats.
+
+## Contraintes
+
+### Fonctionnalités
+Affichage d'un combat de champions suivant les règles du Corewar, sauvegarde du champion gagnant comme grand champion de l'arène. Possibilité de l'affronter pour devenir le nouveau grand champion.
+
+### Lecture des champions
+Les champions peuvent être lus depuis une carte passée devant le dispositif.
+
+### Visuel
+Visuel en 32x32 led rgb minimum, avec écran d'information affichant les noms, aff et jours de règne du grand champion actuel de l'arène.
