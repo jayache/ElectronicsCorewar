@@ -1,3 +1,4 @@
+
 # Cahier des charges
 
 ## Contexte
@@ -8,10 +9,12 @@ Pour répondre a l'amour des étudiants pour ce jeu, nous proposons de faire une
 ## Contraintes
 
 ### Fonctionnalités
-Affichage d'un combat de champions suivant les règles du Corewar, sauvegarde du champion gagnant comme grand champion de l'arène. Possibilité de l'affronter pour devenir le nouveau grand champion.
+Possibilité de garder un champion vainqueur en mémoire, représentant le grand champion de l'arène.
+Deux modes de combat: 1 joueur en affrontant le grand champion actuel de l'arène (le vainqueur devenant grand champion) ou 2 joueurs en s'affrontant mutuellement (avec ses propres champions).
+Affichage d'un combat de champions suivant les règles du Corewar de 42. 
 
 ### Lecture des champions
-Les champions peuvent être lus depuis une carte passée devant le dispositif.
+Les champions peuvent être lus depuis une carte contenant le champion passée devant le dispositif.
 
 ### Visuel
-Visuel en 32x32 led rgb minimum, avec écran d'information affichant les noms, aff et jours de règne du grand champion actuel de l'arène.
+Visuel en 32x32 led rgb minimum, avec écran d'information affichant les noms, aff et jours de règne du grand champion actuel de l'arène (hors combat).
