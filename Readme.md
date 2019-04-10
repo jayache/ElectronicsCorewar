@@ -1,5 +1,8 @@
-
+___
 # Corewar Electronique - Cahier des charges
+auteurs:
+- Jordan Ayache (jayache)
+- Baptiste Leplat (bleplat)
 ___
 
 ## Contexte
@@ -23,11 +26,10 @@ Dans le cas de changements importants des regles pendant la conception du Corewa
 ### Affichage
 Le Corewar Electronique devras proposer une visualisation des combats en cours.  
 Pour des raisons de visibilite, un affichage avec une resolution minimum de 32x32 serras necessaire (neamoins un affichage en 64x64 permetterrais d'afficher l'integralitee de la memoire). Le taux de rafraichissement devras etre raisonable.  
-Visuel en 32x32 led rgb minimum, avec écran d'information affichant les noms, aff et jours de règne du grand champion actuel de l'arène (hors combat).  
-Un affichage de type textuel permettrais d'afficher des details de maniere lisible, tel que le nom des champions.  
+Un affichage de type textuel permettrais d'afficher des details de maniere humainement lisible, tel que le nom des champions, ou les stats du grand champion.  
 
 ## Fonctionnalitees secondaires
-Celles-ci serront implementees des que possible mais ne constituent pas l'objectif principal du projet.
+Celles-ci serront implementees des que possible mais ne constituent pas l'objectif principal du projet.  
 
 ### Le grand champion de l'arrene
 Ceci est un mode de jeu ajouttant de l'interet a une arrene de Corewar physique.  
