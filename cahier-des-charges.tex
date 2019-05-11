@@ -1,5 +1,6 @@
 \documentclass[12pt,a4paper,titlepage]{article}
 \usepackage[utf8]{inputenc}
+\usepackage{graphicx}
 \usepackage[T1]{fontenc}
 \usepackage[hidelinks]{hyperref}
 \usepackage[hidelinks]{xcolor}
@@ -22,7 +23,7 @@
 
       \section{Introduction}
 
-Le Corewar est un jeu dans lequel les joueurs font combattre des programes appeles *Champions*.
+Le Corewar est un jeu dans lequel les joueurs font combattre des programes appeles "Champions".
 La conception de la machine virtuelle servant d'arrene de combat pour ces champions est aussi un \href{https://projects.intra.42.fr/projects/corewar}{projet de 42}.  
 Le championchip du Corewar le rend aussi tres populaire chez les étudiants de 42. Pour répondre a l'amour des étudiants pour ce jeu, nous proposons de realiser une version physique de l'arrene de combat. Celle-ce permetteras ainsi l'affrontement de champions, celon les regles du Corewar de 42, sur un support original.  
 
@@ -64,6 +65,36 @@ Des controls additionels permetterraient de simplifier certaines utilisations:
 - Une procedure pour reinitialiser l'arrene (probablement pas un bouton, car cela permetterrais de tricher... peutetre utiliser un code special a la place, implemente dans le code de l'arrene ?).
 - Un bouton pour mettre en pause, ou executer au ralentis.
 
+      \section{Implémentation}
 
+        \subsection{Proposition d' implémentation}
+
+        \subsection{Selection de composants et estimation des couts}
+
+          \subsubsection{Matrice de leds}
+
+Les dispositifs d'affichage incluent des écrans, des matrices de leds, des bandes de leds addressables, ou des leds addressables à l'unitée.  
+Nous avons choisi une matrice de 64x64 leds RGB car elle permettras d'afficher toute la mémoire de l'arrene. Les autres solutions, pour avoir un rendu identique, nécessiterrais baucoups trop de temps et un cout bien superieur.
+Cout ~= 60-70 euros
+
+            \begin{figure}[h]
+              \includegraphics[width=0.5\linewidth]{pictures/adafruit64x64matrix.png}
+            \end{figure}
+
+          \subsubsection{Afficheur textuel}
+
+
+
+          \subsubsection{Lecteur RFID}
+
+
+
+          \subsubsection{Controleurs et Memoire}
+
+
+
+          \subsubsection{Divers}
+
+Les autres composants incluent des shift registers pour controller des leds, ainsi que des bouttons
 
 \end{document}
