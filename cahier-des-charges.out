@@ -1,0 +1,16 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Contraintes}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Chargement des champions}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Les Regles des combat}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Affichage}{section.2}% 5
+\BOOKMARK [1][-]{section.3}{Fonctionnalitees secondaires}{}% 6
+\BOOKMARK [2][-]{subsection.3.1}{Le grand champion de l'arrene}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.2}{Controls avances}{section.3}% 8
+\BOOKMARK [1][-]{section.4}{Impl\351mentation}{}% 9
+\BOOKMARK [2][-]{subsection.4.1}{Proposition d' impl\351mentation}{section.4}% 10
+\BOOKMARK [2][-]{subsection.4.2}{Selection de composants et estimation des couts}{section.4}% 11
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Matrice de leds}{subsection.4.2}% 12
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Afficheur textuel}{subsection.4.2}% 13
+\BOOKMARK [3][-]{subsubsection.4.2.3}{Lecteur RFID}{subsection.4.2}% 14
+\BOOKMARK [3][-]{subsubsection.4.2.4}{Controleurs et Memoire}{subsection.4.2}% 15
+\BOOKMARK [3][-]{subsubsection.4.2.5}{Divers}{subsection.4.2}% 16
